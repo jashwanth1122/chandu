@@ -1,0 +1,47 @@
+
+
+/*-------------------------	Body --------------------------*/
+.body{
+	
+	margin: auto;
+	height:auto;
+	position:relative;
+}
+.body .featured{
+	overflow:hidden;
+}
+.body .featured a{
+	float:left;
+	margin:10px 10px 5px 5px;
+	display:block;
+}
+.body .featured a img{
+	border:0;
+}
+.body .featured div.gallery{
+	float:left;
+	width:480px;
+}
+.body .featured div.gallery a{
+	float:none;
+	margin:5px;
+	height:480px;
+}
+.body .featured div.gallery ul.first{
+	margin:5px 0 0;
+	float:left!important;
+}
+.body .featured div.gallery ul{
+	padding:0;
+	margin:10px 0 0 10px;
+	float:left;
+	list-style:none;
+}
+.body .featured div.gallery ul li{
+	width:390px;
+}
+.body .featured div.gallery ul li a{
+	height:auto;
+	margin: 0 0 5px 0;
+	height:100px;
+}

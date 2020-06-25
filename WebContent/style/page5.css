@@ -1,0 +1,83 @@
+body {
+    font-family: "Lato", sans-serif;
+     background: gold;
+}
+
+
+
+.main-head{
+    height: 10px;
+   
+    background: gold;
+   
+}
+
+.sidenav {
+    height: 100%;
+    width:50%;
+    background-color: gold;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+	
+    padding-top: 5px ;
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding: 15px;}
+}
+
+@media screen and (max-width: 550px) {
+    .login-form{
+        margin: 10%;
+    }
+
+    .register-form{
+        margin: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 50%; 
+        background: gold;
+    }
+
+    .sidenav{
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 20%;
+    }
+
+    .register-form{
+        margin-top: 40%;
+        margin-left:10%;
+    }
+}
+
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 500;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}

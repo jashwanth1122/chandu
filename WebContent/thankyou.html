@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style/thankyou.css">
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div class="sidenav">
+		<div class="login-main-text">
+			<h2>
+				ThankYou !</h2><br><h3>for Submission</h3>
+			
+			<p></p>
+		</div>
+	</div>
+	<div class="main">
+		<div class="col-md-6 col-sm-12">
+			<div class="login-form">
+				<form action="./ThankyouServlet" method="post">
+					<div class="form-group">
+						<label>Give me a Appointment us for contact you </label><br>
+						<input type="text" name="year" value="2020"> <input
+							type="text" name="month" placeholder="Month"> <input
+							type="text" name="day" placeholder="day"><br>
+					</div>
+					<div class="form-group">
+						<label></label> <input type="radio" name="am/pm"
+							value="am"> <label for="am">am</label> <input
+							type="radio" name="am/pm" value="pm"> <label for="pm">pm</label>
+							<input type="time" name="time" placeholder="12:30">
+					</div>
+					<input type="submit" class="btn btn-black" value="Submit">
+					
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

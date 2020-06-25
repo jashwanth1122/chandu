@@ -1,0 +1,88 @@
+body {
+    font-family: "Lato", sans-serif;
+     
+}
+
+
+
+.main-head{
+    height: 40px;
+   
+    background: gold;
+   
+}
+
+.sidenav {
+    height:100%;
+    width:100%;
+    background-color:gold;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+	
+    padding-top: 90px ;
+    bg-color:gold;
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding: 15px;}
+}
+
+@media screen and (max-width: 550px) {
+    .login-form{
+        margin: 50%;
+    }
+
+    .register-form{
+        margin: 50%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left:75%; 
+        padding:70px;
+        padding-bottom:290px;
+        
+        background: gold;
+    }
+
+    .sidenav{
+        width: 80%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin: 20px  ;
+      
+    }
+
+    .register-form{
+        margin-top:30px;
+       
+    }
+}
+
+
+
+.login-main-text{
+    margin-top: 50px;
+    padding: 90px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 500;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
